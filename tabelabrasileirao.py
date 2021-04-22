@@ -23,7 +23,7 @@ def tabela():
     for c in range(0, len(tabela_de_times)):
         tabela_dados = {**tabela_de_times[c], **tabela_de_pontuacao[c]} # Juntará dois dicionários em um
         tabela.append(tabela_dados.copy())
-    
+
     return tabela
 
 
